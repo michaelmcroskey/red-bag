@@ -12,7 +12,6 @@
     <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
     <link href="css/devices.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <!---Apple Icons--->
     <link rel="apple-touch-startup-image" href="webapp.png" media="screen and (max-device-width: 320px)" />
@@ -77,11 +76,6 @@
         </nav>                                                                          
     </header>
     
-    <!-- LOADER -->
-    <div id="loader-wrapper">
-        <img src="img/theme-5/logo.png" alt=""/>
-        <span></span>
-    </div>
     
     <div id="content-wrapper">
         
@@ -825,17 +819,6 @@
                 </div>
             </div>
             
-            <!-- BLOCK "MAP" -->
-            <div>
-                <div id="map-canvas" data-lat="43.653226" data-lng="-107.383184" data-zoom="7">
-
-                </div>
-                <div class="addresses-block">
-                    <a data-lat="43.653226" data-lng="-107.383184" data-string="1. Here is some address or email or phone or something else..."></a>
-                    <a data-lat="57.653226" data-lng="-77.383184" data-string="2. Here is some address or email or phone or something else..."></a>
-                </div>
-            </div>
-            
             <!-- FOOTER -->
             <footer>
                 <div class="subscribe">
@@ -994,29 +977,7 @@
     <script src="js/idangerous.swiper.min.js"></script>
     <script src="js/global.js"></script>
     
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
-    <script src="js/map.js"></script>
 
-    <script src="js/wow.min.js"></script>
-    <script>
-        var wow = new WOW(
-            {
-                boxClass:     'wow',      // animated element css class (default is wow)
-                animateClass: 'animated', // animation css class (default is animated)
-                offset:       100,          // distance to the element when triggering the animation (default is 0)
-                mobile:       true,       // trigger animations on mobile devices (default is true)
-                live:         true,       // act on asynchronously loaded content (default is true)
-                callback:     function(box) {
-                  // the callback is fired every time an animation is started
-                  // the argument that is passed in is the DOM node being animated
-                }
-            }
-        );
-        $(window).load(function(){
-            wow.init();    
-        });
-        
-    </script>
 
     <script src="js/isotope.pkgd.min.js"></script>
     <script>
